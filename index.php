@@ -21,7 +21,7 @@
 
 		
 		<div class = "newsBlock">
-			<table>	
+			<!--<table>	
 				<tr>
 					<td>News</td>
 				</tr>
@@ -29,7 +29,7 @@
 				<tr>
 					<td>Vids</td>
 				</tr>
-			</table>
+			</table> -->
 		</div>
 	</div>
 <?php include('footer.php'); ?>
