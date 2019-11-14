@@ -1,7 +1,9 @@
+/* Home page styling */
 body{
 	background-color: grey;
 	color: white;
-	
+	overflow-x: hidden;
+	font-family: sans-serif;
 	
 }
 
@@ -9,57 +11,83 @@ body{
 	background-color: black;
 	color: white;
 	border: 2px solid yellow;
-	padding: 9%;
+	padding: 5%;
 	position: relative;
 	
 }
 
 h2{
-	position: absolute;
-	margin: auto;
-	margin-top: -3%;
-	width: 40%;
-	left: 30%;
-	right: 0%;
-	
+	text-align: center;
+	margin: 0 auto;
 }
 
 .navBar{
-	position: absolute;
-	margin: auto;
 	width: 70%;
-	left: 22%;
+    list-style: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.navBar ul{
+	display: flex;
+	justify-content: space-between;
+}
+
+.navBar li{
+    display:inline;
+	padding: 0 10px;
+}
+.navBar a{
+    display:inline-block;
+}
+
+.headerimg{
+	position: absolute;
+	width: 15%;
+	top: 13%;
 }
 
 .leftLogo{
-	position: absolute;
-	width: 15%;
-	height: 70%;
 	left: 1%;
-	top: 13%;
 }
 
 .rightLogo{
-	position: absolute;
-	width: 15%;
-	height: 70%;
 	right: 1%;
-	top: 13%;
 }
 
 .PageBody{
 	background-color: black;
 	color: white;
 	border: 2px solid yellow;
-	padding: 40%;
-	position: relative;
 }
 
+.description{
+	text-align: center;
+	font-style: oblique;
+	margin: 60px 0;
+}
 
+.tickers{
+	position: absolute;
+	width: 50%;
+	left: 68%;
+	height: 60%;
+	
+}
 
+.videos{
+    width: 90%;
+margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 10px;
+    justify-items: center;
+}
 
-
-
+.videos img{
+    margin: 20px;
+    width: 400px;
+}
 
 .footer{
 	margin: auto;
@@ -72,3 +100,5 @@ h2{
 a{
 	color: white;
 }
+
+/* End of Home page styling */
