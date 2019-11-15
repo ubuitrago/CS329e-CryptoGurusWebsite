@@ -164,3 +164,19 @@ table.contactProfiles {
 	margin-bottom: 35px;
 	width: 70%;
   }
+
+
+.cEPageBody{
+    background-color: black;
+	color: white;
+	border: 2px solid yellow;
+    
+    
+}
+
+/*cryptoEx*/
+
+.cryptoEx{
+    border: 1px solid yellow; 
+
+}
