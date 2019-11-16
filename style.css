@@ -1,0 +1,271 @@
+/* Home page styling */
+body{
+	background-color: grey;
+	color: white;
+	overflow-x: hidden;
+	font-family: sans-serif;
+	
+}
+
+.Header{
+	background-color: black;
+	color: white;
+	border: 2px solid yellow;
+	padding: 5%;
+	position: relative;
+	
+}
+
+h2{
+	text-align: center;
+	margin: 0 auto;
+}
+
+.navBar{
+	width: 70%;
+    list-style: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.navBar ul{
+	display: flex;
+	justify-content: space-between;
+}
+
+.navBar li{
+    display:inline;
+	padding: 0 10px;
+}
+.navBar a{
+    display:inline-block;
+}
+
+.navBar a:active {
+	background: rgb(121, 121, 121);
+	background-size: contain;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 8px;
+	
+}
+
+.navBar a:hover {
+	color: yellow;
+}
+
+.headerimg{
+	position: absolute;
+	width: 15%;
+	top: 13%;
+}
+
+.leftLogo{
+	left: 1%;
+}
+
+.rightLogo{
+	right: 1%;
+}
+
+.liveTickers {
+	padding-top: 25px;
+	padding-left: 55px;
+	padding-right: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	background-color: silver;
+	background-image: url("https://roninai.com/wp-content/uploads/2018/06/stock-market-cryptocurrency-trading-advice-1.png");
+	width: 65%;
+}
+
+.PageBody{
+	background-color: black;
+	color: white;
+	border: 2px solid yellow;
+}
+
+.description{
+	text-align: center;
+	font-style: oblique;
+	margin: 60px 0;
+}
+
+.tickers{
+	position: absolute;
+	width: 50%;
+	left: 68%;
+	height: 60%;
+	
+}
+
+.about p {
+	width:75% ;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 0px;
+	font-family: sans-serif;
+}
+
+.mainVid {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 75px;
+	padding-left: 23%;
+	padding-right: 20%;
+}
+.videos{
+    width: 90%;
+	margin: 600px auto 75px auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+	grid-gap: 10px;
+    justify-items: center;
+}
+
+.videos img{
+    margin: 20px;
+    width: 400px;
+}
+
+.footer{
+	margin: auto;
+	width: 90%;
+	color: white;
+	padding: 20px;
+	margin-bottom: 35px;
+	
+}
+
+a{
+	color: white;
+}
+
+/* End of Home page styling */
+/*--------------------------------------------*/
+
+/* Contact Us Styling */
+
+#contactBody {
+	text-align: center;
+}
+
+
+.amit-with-text, .uriel-with-text {
+    text-align: justify;
+    width: 500px;
+}
+
+
+.amit-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
+.uriel-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
+#amit-label, #uriel-label {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: solid 1.5px gold;
+    font-size: larger;
+    margin-left:98px;
+
+}
+
+figcaption {
+    margin-top: 8px;
+    margin-left:65px;
+    font-size: large;
+}
+
+img [src="amitHeadshot.jpg"], img [src="urielHeadshot.jpg"]{
+    border-radius: 1.75px;
+}
+
+
+
+#amitProf{
+    padding-right: 115px;
+}
+
+#amitProf, #urielProf{
+	vertical-align: top;
+}
+
+
+table.contactProfiles {
+	/* position: absolute; */
+	/* margin-left:-425px;  */
+	margin-left: auto;
+    margin-right:auto;
+	margin-top: 75px;
+	margin-bottom: 35px;
+	width: 70%;
+  }
+/* End of contactUs */
+/*--------------------------------------------*/
+
+/*cryptoEx*/
+.cEPageBody{
+    background-color: black;
+	color: white;
+	border: 2px solid yellow;
+    
+    
+}
+
+
+.cryptoEx{
+    border: 1px solid yellow; 
+
+}
+/*--------------------------------------------*/
+
+/* News */ 
+b{
+	font-style: normal;
+	color: tomato;
+}
+.edsChoice, .latest {
+	margin-bottom: 75px;
+
+}
+
+#statcontent h2 {
+	border-top: solid yellow 2px;
+}
+
+#statcontent h2, #dynocontent h2 {
+	padding-top: 55px;
+}
+
+.edsChoice, .latest{
+	text-align: center;
+	margin-left: 65px;
+	
+}
+.edsChoice  p, .latest p{
+	width:400px;
+	font-style: italic;
+	text-align: left;
+	border-left: solid 3.5px gold;
+	padding-left: 10px;
+}
+
+.edsChoice td, .latest td {
+	padding-top: 35px;
+	padding-right: 10px;
+}
+.edsChoice img:hover, .latest img:hover {
+	border: solid yellow 1px;
+	padding: 0px;
+}
+
+.secCol {
+	padding-left: 65px;
+}

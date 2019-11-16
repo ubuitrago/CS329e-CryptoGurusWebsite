@@ -1,15 +1,14 @@
 
+<?php include('header.php');?>
 
-
-<?php
-    require('header.inc');
-?>
-<table class="center">
+<div class="PageBody">
+<div class="contactBody">
+<table class="contactProfiles">
             <tr id="profiles">
                 <!-- Amit -->
                 <td id="amitProf">
                     <div class="amit-with-text">
-                    <label>Amit Nacson: Full Stack Developer</label>
+                    <label id="amit-label">Amit Nacson: Full Stack Developer</label>
                     <figure>
                         <img src="amitHeadshot.jpg" style="width: 185px; height:240px;">
                         <figcaption>555-5555-555 | amitnacson@gmail.com</figcaption>
@@ -23,7 +22,7 @@
                 <!-- Uriel -->
                 <td id="urielProf">
                     <div class="uriel-with-text">
-                    <label>Uriel Buitrago: Full Stack Developer</label>
+                    <label id="uriel-label">Uriel Buitrago: Full Stack Developer</label>
                     <figure>
                         <img src="urielHeadshot.jpg" style="width: 185px; height:240px;">
                         <figcaption>555-5555-555 | uriel.buitrago@utexas.edu</figcaption>
@@ -37,7 +36,9 @@
                     </div>
                 </td>
             </tr>
-        </table>
-<?php
-    require('footer.inc');
-?>
+</table>
+</div>
+
+</div>
+
+<?php include('footer.php');?>

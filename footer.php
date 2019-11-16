@@ -8,7 +8,7 @@
 					<h4 class = "date">November 04, 2019</h4>
 				</td>
 				<td>
-					<div class = "Contact"><h4><a href = "./filler.html">Contact Us</a></h4></div>
+					<div class = "Contact"><h4><a href = "./contactUs.php">Contact Us</a></h4></div>
 				</td>
 			</tr>
 		</table>
