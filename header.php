@@ -17,6 +17,7 @@
 				<li><a href = "./news.php"><h4>News</h4></a></li>
 				<li><a href = "./cryptoEx.php"><h4>Crypto Explained</h4></a></li>
 				<li><a href = "./starterGuide.php"><h4>Starter Guide</h4></a></li>
+				<li><a href = "./forum.php"><h4>Forum</h4></a></li>
 			</ul>
 		</div>
 		

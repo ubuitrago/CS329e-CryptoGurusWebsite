@@ -269,3 +269,17 @@ b{
 .secCol {
 	padding-left: 65px;
 }
+
+/*---------------------------------------*/
+/* Forum */
+.login{
+	font-size: 26px;
+	margin-left: 35%;
+	margin-top: 10%;
+	width: 30%;
+}
+
+#alreadyUser:hover {
+	color:gold;
+
+}
