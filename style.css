@@ -84,6 +84,7 @@ h2{
 	background-color: black;
 	color: white;
 	border: 2px solid yellow;
+    overflow-x: hidden;
 }
 
 .description{
@@ -230,11 +231,15 @@ table.contactProfiles {
 b{
 	font-style: normal;
 	color: tomato;
+    overflow-x: hidden;
 }
 .edsChoice, .latest {
 	margin-bottom: 75px;
 
 }
+.newsCSS{
+	overflow-x: hidden;
+{
 
 #statcontent h2 {
 	border-top: solid yellow 2px;
@@ -268,4 +273,22 @@ b{
 
 .secCol {
 	padding-left: 65px;
+}
+
+
+
+
+.liveTickers{
+	
+
+}
+
+
+
+
+.login{
+	font-size: 26px;
+	margin-left: 35%;
+	margin-top: 10%;
+	width: 30%;
 }
