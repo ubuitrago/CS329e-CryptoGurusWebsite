@@ -2,7 +2,7 @@ var url = 'https://newsapi.org/v2/everything?mkt=en-US&' +
           'q=Crypto&blockchain' +
           'from=2019-11-15&' +
           'sortBy=popularity&' +
-          'apiKey=7e294fd4b7544f44b01e93ff1e56f46a';
+          'apiKey=9ed8a75149e2409c88c4df13381e8d26';
 
 var req = new Request(url);
 

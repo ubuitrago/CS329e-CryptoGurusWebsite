@@ -3,7 +3,7 @@
 <div class = "login">
 <center>
 <form id="textForm" name="register" method="POST" action="register.php">
-<table class = "table" border = "0">
+<table class = "table" border = "5px">
 <tr>
 <td> User Name </td>
 <td> <input type = "text" name = "userName" /></td>

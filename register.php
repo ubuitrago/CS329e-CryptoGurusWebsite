@@ -7,7 +7,7 @@ while(!feof($suFile)) {
     $field_array  = preg_split("/:/", $line);
     $users[$field_array[0]] = trim($field_array[1]);
   }
-$username = $_POST["username"];
+$username = $_POST["userName"];
 $uPass = $_POST["password"];
 $rePass = $_POST["rePassword"];
 
@@ -15,6 +15,7 @@ $rePass = $_POST["rePassword"];
     if ($uPass == $users[$username] && $uPass == $rePass) {
       // set cookie for five days
       setcookie ('loggedIn', 'yes', time()+ (60*60*24*5));
+      setcookie('user',$username, time()+ (60*60*24*5));
       header('Location: ./forum.php'); 
     }
 
@@ -26,7 +27,8 @@ $rePass = $_POST["rePassword"];
   else{
     $new = $username.':'.$uPass."\n";
     fwrite($suFile,$new);
-    setcookie ('loggedIn', 'yes', time()+ 60*2);
+    setcookie ('loggedIn', 'yes', time()+ (60*60*24*5));
+    setcookie('user',$username, time()+ (60*60*24*5));
     header('Location: ./forum.php'); 
   }
 
