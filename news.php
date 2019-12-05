@@ -2,8 +2,10 @@
 <?php include('header.php');?>
 
 <div class="PageBody">
+<div class="newsCSS">
     <!-- This dynamic table is updated by fetching articles from News api -->
     <div id="dynocontent">
+    <center>
     <h2>Trending News</h2>
         <div >
             <table class="latest">
@@ -44,6 +46,7 @@
                 </tr>
             </table>
         </div>
+        </center>
 </div>
 
 <script src="./dynoNews.js"> </script>
@@ -82,6 +85,7 @@
                 </tr>
             </table>
         </div>
+</div>
 </div>
 </div>
 <?php include('footer.php');?>

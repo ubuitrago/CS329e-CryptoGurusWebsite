@@ -84,6 +84,7 @@ h2{
 	background-color: black;
 	color: white;
 	border: 2px solid yellow;
+    overflow-x: hidden;
 }
 
 .description{
@@ -109,12 +110,13 @@ h2{
 }
 
 .mainVid {
-	position: absolute;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 75px;
-	padding-left: 23%;
-	padding-right: 20%;
+	width: 60%;
+	/*padding-left: 23%;
+	padding-right: 20%;*/
+	padding-bottom: 50px;
+	padding-top: 20px;
 }
 .videos{
     width: 90%;
@@ -221,7 +223,8 @@ table.contactProfiles {
 
 
 .cryptoEx{
-    border: 1px solid yellow; 
+    border: 1px solid yellow;
+    padding: 20px; 
 
 }
 /*--------------------------------------------*/
@@ -230,11 +233,15 @@ table.contactProfiles {
 b{
 	font-style: normal;
 	color: tomato;
+    overflow-x: hidden;
 }
 .edsChoice, .latest {
 	margin-bottom: 75px;
 
 }
+.newsCSS{
+	overflow-x: hidden;
+{
 
 #statcontent h2 {
 	border-top: solid yellow 2px;
@@ -286,6 +293,15 @@ b{
 
 /*---------------------------------------*/
 /* Forum Login */
+.liveTickers{
+	width: 100%;
+}
+
+.liveTickerRow{
+	width: 100%;
+	display: block;
+}
+
 .login{
 	font-size: 26px;
 	margin-left: 35%;
@@ -295,7 +311,6 @@ b{
 
 #alreadyUser:hover {
 	color:gold;
-
 }
 
 .bg-modal {
@@ -392,4 +407,4 @@ b{
 	right: 0;
   }
 
-  
+}

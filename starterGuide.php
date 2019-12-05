@@ -14,6 +14,7 @@
 
         You may have to verify your account to buy or withdraw larger amounts of Bitcoin (or any other cryptocurrency) with most reputable exchanges.
         Once you have bought your Bitcoin (or any other chosen cryptocurrency) you can either keep it on the exchange or have it transferred to your own personal wallet if you have one. You can always keep your coins on an exchange for the mean time whilst looking for a wallet.</p>
+        <center><img src = "./exchanges.png"></center>
     </div>
     <center>
     <h2>How do I keep track of the market?</h2>
