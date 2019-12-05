@@ -8,31 +8,39 @@
         <div >
             <table class="latest">
                 <tr>
-                    <td><p></p></td>
-                    <td><a target= "_blank" href="">
-                <img src="" width="215px" height="150px"></a></td>
-
-                    <td class="secCol"><p></p></td>
-                        <td><a target= "_blank" href="">
-                    <img src="" width="215px" height="150px"></a></td>
-                </tr>
+                    <td class='container'>
+                    <div class='title'><p></p></div>
+                    <div class='imagelink'><a target= "_blank" href="">
+                        <img src="" width="215px" height="150px"></a></div>
+                    </td>
+                    <td class='container'>
+                    <div class='title'><p></p></div>
+                    <div class='imagelink'><a target= "_blank" href="">
+                        <img src="" width="215px" height="150px"></a></div>
+                    </td>
                 <tr>
-                    <td><p></p></td>
-                    <td><a target= "_blank" href="">
-                <img src="" width="215px" height="150px"></a></td>
-
-                    <td class="secCol"><p></p></td>
-                        <td><a target= "_blank" href="">
-                    <img src="" width="215px" height="150px"></a></td>
+                    <td class='container'>
+                    <div class='title'><p></p></div>
+                    <div class='imagelink'><a target= "_blank" href="">
+                        <img src="" width="215px" height="150px"></a></div>
+                    </td>
+                    <td class='container'>
+                    <div class='title'><p></p></div>
+                    <div class='imagelink'><a target= "_blank" href="">
+                        <img src="" width="215px" height="150px"></a></div>
+                    </td>
                 </tr>
                 <tr style="padding-bottom: 25px">
-                    <td><p></p></td>
-                    <td><a target= "_blank" href="">
-                <img src="" width="215px" height="150px"></a></td>
-
-                    <td class="secCol"><p></p></td>
-                        <td><a target= "_blank" href="">
-                    <img src="" width="215px" height="150px"></a></td>
+                    <td class='container'>
+                    <div class='title'><p></p></div>
+                    <div class='imagelink'><a target= "_blank" href="">
+                        <img src="" width="215px" height="150px"></a></div>
+                    </td>
+                    <td class='container'>
+                    <div class='title'><p></p></div>
+                    <div class='imagelink'><a target= "_blank" href="">
+                        <img src="" width="215px" height="150px"></a></div>
+                    </td>
                 </tr>
             </table>
         </div>

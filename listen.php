@@ -2,7 +2,7 @@
 /* Determines if user is logged in and redirects them
 *  to the login page if not
 */
-if(isset($_COOKIE["loggedIn"])) {
+if(isset($_COOKIE["loggedIn"]) && $_COOKIE["loggedIn"]=="yes") {
     // check valid user
     $user = $_COOKIE["loggedIn"];
     $suFile = fopen("passwd.txt","r");

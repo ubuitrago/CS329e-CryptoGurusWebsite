@@ -2,6 +2,7 @@
 
 <div class = "PageBody">
 <div class = "liveTickers">
+<!-- <iframe frameBorder='0' scrolling='no' width='300' height='150' src='https://api.stockdio.com/visualization/financial/charts/v1/SingleQuote?app-key=&stockExchange=CRYPTO&symbol=BTC&includeDateTime=true&palette=Financial-Light'></iframe> -->
 <iframe frameBorder='0' scrolling='no' width='300' height='150' src='https://api.stockdio.com/visualization/financial/charts/v1/SingleQuote?app-key=609F23A7EFF54D2B91047E25170F1CA9&stockExchange=CRYPTO&symbol=BTC&palette=Financial-Light'></iframe>
 <iframe frameBorder='0' scrolling='no' width='300' height='150' src='https://api.stockdio.com/visualization/financial/charts/v1/SingleQuote?app-key=609F23A7EFF54D2B91047E25170F1CA9&stockExchange=CRYPTO&symbol=XRP%2FUSD&palette=Financial-Light'></iframe>
 <iframe frameBorder='0' scrolling='no' width='300' height='150' src='https://api.stockdio.com/visualization/financial/charts/v1/SingleQuote?app-key=609F23A7EFF54D2B91047E25170F1CA9&stockExchange=CRYPTO&symbol=LTC%2FUSD&palette=Financial-Light'></iframe>
