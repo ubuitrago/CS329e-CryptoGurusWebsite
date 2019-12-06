@@ -9,11 +9,17 @@ body{
 
 .Header{
 	background-color: black;
-	color: white;
-	border: 2px solid yellow;
+	color: #f2c738;
+	border: 2px solid #f2c738;
 	padding: 5%;
 	position: relative;
 	
+}
+
+h1{
+	text-align: center;
+	margin: 0 auto;
+
 }
 
 h2{
@@ -51,7 +57,7 @@ h2{
 }
 
 .navBar a:hover {
-	color: yellow;
+	color: #f2c738;
 }
 
 .headerimg{
@@ -83,7 +89,7 @@ h2{
 .PageBody{
 	background-color: black;
 	color: white;
-	border: 2px solid yellow;
+	border: 2px solid #f2c738;
     overflow-x: hidden;
 }
 
@@ -213,19 +219,45 @@ table.contactProfiles {
 /*--------------------------------------------*/
 
 /*cryptoEx*/
+
+.cryptoheader{
+    	margin-top: 3%;
+
+}
+
 .cEPageBody{
     background-color: black;
 	color: white;
-	border: 2px solid yellow;
+	border: 2px solid #f2c738;
+	padding-left: 15%; 
+	padding-right: 15%;
+
     
     
 }
 
 
 .cryptoEx{
-    border: 1px solid yellow;
-    padding: 20px; 
+	border-top: 1px solid #f2c738;
+    padding: 20px;
+	padding-left: 15%; 
+	padding-right: 15%;
 
+}
+
+
+
+
+
+.starter{
+	padding-bottom: 40px;
+
+
+}
+
+.starterHead{
+	padding-top: 15px;
+	border-top: solid 1px #f2c738;
 }
 /*--------------------------------------------*/
 
@@ -235,6 +267,11 @@ b{
 	color: tomato;
     overflow-x: hidden;
 }
+
+.latest{
+	
+}
+
 .edsChoice, .latest {
 	margin-bottom: 75px;
 
@@ -244,7 +281,7 @@ b{
 {
 
 #statcontent h2 {
-	border-top: solid yellow 2px;
+	border-top: solid #f2c738 2px;
 }
 
 #statcontent h2, #dynocontent h2 {
@@ -273,7 +310,7 @@ b{
 	/* padding: 0px; */
 }
 .edsChoice img:hover, .latest img:hover {
-	border: solid yellow 1px;
+	border: solid #f2c738 1px;
 	padding: 0px;
 }
 
@@ -293,6 +330,7 @@ b{
 
 /*---------------------------------------*/
 /* Forum Login */
+
 .liveTickers{
 	width: 100%;
 }
@@ -301,6 +339,7 @@ b{
 	width: 100%;
 	display: block;
 }
+
 
 .login{
 	font-size: 26px;
@@ -407,4 +446,11 @@ b{
 	right: 0;
   }
 
+
+
+.table{
+	padding-top: 40px;
+	padding-bottom: 25px;
+
+}
 }

@@ -1,4 +1,6 @@
 <?php include('header.php');?>
+
+
 <div class="PageBody">
 <div class="fOptions">
 <div>
@@ -42,6 +44,10 @@
         <button type="button" class="btn btn-primary" aria-pressed="true">Submit</button>
     </form>
     </div>
+
+//    <td style="text-align:center"> <input type = "submit" value = "Register" /></td>
+//    <td style="text-align:center"> <input type = "reset" value = "Reset" /></td>
+//    <a href="/login.html" id="alreadyUser">Already have an account?</a>
 </div>
 <!-- </tr>
 </table>

@@ -11,7 +11,7 @@
 </head>
 <body class="headerBody">
 	<div class = "Header">
-		<h2>Cryptogurus</h2>
+		<cneter><h1>Cryptogurus</h2></center>
 
 		<div class = "navBar">
 			<ul>

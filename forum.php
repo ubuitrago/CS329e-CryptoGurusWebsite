@@ -42,6 +42,6 @@ function closeForm() {
   </form>
 </div>
 
-<img src="./forumExample.jpg" width="95%" height="45%" style="margin-left:auto; margin-right:auto;"/>
+<img src="./forumExample.JPG" width="95%" height="45%" style="margin-left:auto; margin-right:auto;"/>
 </div>
 <?php include('footer.php');?>
